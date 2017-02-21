@@ -29,6 +29,9 @@ abstract class DefaultVideo extends DefaultAudio implements VideoInterface
     /** @var Integer */
     protected $kiloBitrate = 1000;
 
+    /** @var bool  */
+    public $variableBitrate = true;
+
     /** @var Integer */
     protected $modulus = 16;
 
